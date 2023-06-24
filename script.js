@@ -5,6 +5,7 @@ let player = {
       //  console.log("Hello World")
     //}
 }
+// player.sayHello()
 let sum = 0
 let cards = []
 console.log(cards,sum)
