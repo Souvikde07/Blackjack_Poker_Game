@@ -1,4 +1,10 @@
-
+let player = {
+    name: "Souvik",
+    chips: 200
+    //sayHello: function(){ Functions attached to objects are called methods.
+      //  console.log("Hello World")
+    //}
+}
 let sum = 0
 let cards = []
 console.log(cards,sum)
@@ -9,6 +15,9 @@ let messageEl = document.getElementById("message-el")
 //let sumEl = document.getElementById("sum-el")
 let sumEl = document.getElementById("sum-el")
 let cardEl = document.getElementById("cards-el")
+let playerEl = document.getElementById("player-el")
+
+playerEl.textContent = player.name + ": $" + player.chips
 
 function startGame() {
     isAlive = true

@@ -1,10 +1,9 @@
-let likesDocu = false
-let likesStart = false
-
-if (likesDocu == true || likesStart == true) {
-    recommend()
+let airbnbCastles = {
+    title:"live like a king",
+    price: 190,
+    isHost: true,
+    reviews:["img/castle1.png","img/castle2.png"]
 }
 
-function recommend (){
-    console.log("Checkout movie")
-}
+console.log(airbnbCastles.isHost)
+console.log(airbnbCastles.price)
